@@ -1,0 +1,40 @@
+/* 头部 */
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.1rem;
+	width: 100%;
+	padding: 0.1rem 0.2rem;
+	border-top: 0.01rem solid #ccc;
+	border-bottom: 0.01rem solid #ccc;
+}
+.header div{
+	width: 60%;
+	line-height: 0.65rem;
+	font-size: 0.24rem;
+}
+.header img{
+	width: 0.34rem;
+	height: 0.34rem;
+	vertical-align:middle;
+}
+/* 图片 */
+.content li{
+	text-align: center;
+	margin-top: -1px;
+	width: 100%;
+}
+.content li img{
+	border: none;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.content .a{
+	background-color: #082662;
+}
+.content .a img{
+	width: 49%;
+	display: inline-block;
+}
